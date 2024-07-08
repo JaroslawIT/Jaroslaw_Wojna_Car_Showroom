@@ -1,0 +1,376 @@
+﻿.logo {
+    width: 80px;
+    height: 50px;
+    margin-right: 9px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.logos {
+    width: 2000px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.logos1 { /*KARTYKARUZELA*/
+    width: 900px;
+    height: 500px;
+}
+
+.App { /*LAYOUT*/
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.custom-loan-calculator { /*KALKULATOR*/
+    width: 50%;
+}
+
+.main-container { /*KARTY NOWE*/
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.small-container {
+    flex: 1;
+    padding: 10px;
+    margin: 0px;
+}
+
+.bottom-container {
+    flex: 1;
+    padding: 20px;
+}
+
+footer { /*STOPKA*/
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.carousel-container { /*KARUZELA*/
+    background-size: cover;
+    background-position: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-top {
+    align-self: flex-start;
+}
+
+.large-width {
+    width: 100%;
+}
+
+.video-background { /*VIDEO*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+
+    .video-background video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translate(-50%, -50%);
+    }
+
+.custom-container { /*KONTENER PRZEZROCZYSTY*/
+    background-color: rgba(242, 242, 242, 0.7);
+    padding: 30px;
+    margin-top: 50px;
+    height: 600px;
+    max-width: 500px;
+}
+
+.car-card { /*KARTASAMOCHOD*/
+    width: 300px;
+    height: 330px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 20px;
+}
+
+    .car-card:hover { /*POWIEKSZENIE*/
+        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+.car-image { /*KARTYSAMOCHOD*/
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.car-details {
+    padding: 10px;
+}
+
+    .car-details h2 {
+        margin-top: 0;
+    }
+
+    .car-details p {
+        margin: 5px 0;
+    }
+
+        .car-details p:last-child {
+            margin-bottom: 0;
+        }
+
+.car-card2 {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover { /*POWIEKSZENIE*/
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.car-image { /*SAMOCHODYZDJ*/
+    width: 100%;
+    height: auto;
+}
+
+.car-details {
+    padding: 10px;
+}
+
+    .car-details h2 {
+        margin-top: 0;
+    }
+
+    .car-details p {
+        margin: 5px 0;
+    }
+
+        .car-details p:last-child {
+            margin-bottom: 0;
+        }
+
+.offers-container { /*NOWEOFERTA*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.offer {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.car-card3 { /*KARTYSAMOCHOD4*/
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+
+.car-image3 {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.car-details3 {
+    padding: 20px;
+}
+
+.car-details h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.car-details p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+
+
+.send-button { /*BATONWYSLIJ*/
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.custom-background { /*PRZEZROCZYSTOSC*/
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.marquee-container { /*ANIMOWANYTEXT*/
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+    font-size: 24px; 
+    font-weight: bold; 
+   
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.chat-bubble { /*CHAT*/
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    background-color: #ba9bf2;
+}
+
+    .chat-bubble p {
+        margin: 0;
+    }
+
+.chat-window {
+    position: fixed;
+    bottom: 10px;
+    right: 50px;
+    width: 350px;
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.chat-header {
+    background-color: #347B98;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .chat-header span {
+        cursor: pointer;
+    }
+
+.chat-body {
+    padding: 70px;
+    max-height: 300px; 
+    overflow-y: auto;
+}
+
+.chat-footer {
+    background-color: #347B98;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+}
+
+    .chat-footer input {
+        flex: 1;
+        padding: 5px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+
+    }
+
+    .chat-footer button {
+        padding: 5px 10px;
+        margin-left: 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #232D36;
+        color: #fff;
+    }
+
+        .chat-footer button:hover {
+            background-color: #ba9bf2;
+        }
+
+.zoom-on-hover:hover { /*POWIEKSZENIE*/
+    transform: scale(1.05); 
+    transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {/* RESPONSYWNOŚĆ*/
+    .resp-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .small-container {
+        margin-bottom: 20px; 
+    }
+}
